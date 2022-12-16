@@ -1,4 +1,3 @@
-<script>
 var userLang = navigator.language || navigator.userLanguage; 
 console.log("The language is: " + userLang);
 if ((Cookies.get("language")) === "en" || (Cookies.get("language")) === "de" || (Cookies.get("language")) === "fr"){
@@ -23,4 +22,3 @@ else {
 			}
     }
 }
-</script>
